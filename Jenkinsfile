@@ -15,7 +15,7 @@ pipeline {
 
     stage('pull') {
       steps {
-        git(url: 'git@github.com:yashwanthsn2020/yashwanthsn.git', branch: 'master')
+        git(url: 'git@github.com:yashwanthsn2020/yashwanthsn.git', branch: 'master', credentialsId: 'ATTG3dbT!@#')
       }
     }
 
